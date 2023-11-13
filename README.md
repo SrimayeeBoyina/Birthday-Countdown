@@ -14,12 +14,19 @@ Welcome to the Birthday Countdown App! This application helps you keep track of 
 
 ## Getting Started
 Follow these steps to run the Birthday Countdown App locally:
+
 1.Install dependencies:
+
 cd BirthdayCountdownApp
+
 npm install
+
 2.Start the React app:
+
 npm start
+
 3.Start the JSON-Server (in a separate terminal window):
+
 node server.js
 
 ## Screenshots
