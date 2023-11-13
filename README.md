@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Birthday Countdown App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React.js web application
 
-## Available Scripts
+Welcome to the Birthday Countdown App! This application helps you keep track of upcoming birthdays and countdowns.
 
-In the project directory, you can run:
+## Features
+- View upcoming birthdays and countdowns
+- Add new birthdays with names, dates, and images
+- See countdowns with days, hours, and minutes
 
-### `npm start`
+## Technologies Used
+- React for the frontend
+- JSON-Server for simulating a backend with data storage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to run the Birthday Countdown App locally:
 
-### `npm test`
+1.Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd BirthdayCountdownApp
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.Start the React app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+3.Start the JSON-Server (in a separate terminal window):
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+node server.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2023-11-13 222531](https://github.com/SrimayeeBoyina/Birthday-Countdown/assets/107919144/b320c046-e2da-4d9f-8684-a6d1e194ca35)
+![Screenshot 2023-11-13 222602](https://github.com/SrimayeeBoyina/Birthday-Countdown/assets/107919144/984e2f86-cd52-41cc-821f-d37113d0d8c3)
+![Screenshot 2023-11-13 222630](https://github.com/SrimayeeBoyina/Birthday-Countdown/assets/107919144/c2e09637-82ac-4a02-ad54-3434b90cabce)
+![Screenshot 2023-11-13 222647](https://github.com/SrimayeeBoyina/Birthday-Countdown/assets/107919144/fc5aa5ee-cb78-4c84-9f4f-6750eb85fe16)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Here we not included node modules folder which directly formed by creating react js file using command  npx create-react-app <appname>
